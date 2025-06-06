@@ -38,7 +38,7 @@
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label>No Ujian</label>
-                                        <input type="text" name="no_ujian" class="form-control" required>
+                                        <input type="text" name="no_ujian" placeholder="Contoh : 2025-0309-002" class="form-control" required>
                                     </div>
 
                                     <div class="mb-3">
