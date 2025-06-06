@@ -105,11 +105,6 @@
                         <span class="sub-item">Upload SKL</span>
                       </a>
                     </li>
-                    <li>
-                      <a href="<?= base_url('setting/countdowns') ?>">
-                        <span class="sub-item">Hitung Mundur</span>
-                      </a>
-                    </li>
                   </ul>
                 </div>
               </li>
