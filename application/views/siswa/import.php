@@ -5,9 +5,12 @@
                 <h4 class="mb-0">Import Data Siswa</h4>
             </div>
             <div class="card-body">
-                <?php if (isset($error)) : ?>
-                    <div class="alert alert-danger"><?= $error ?></div>
-                <?php endif; ?>
+
+                <p>
+                    <a href="<?= base_url('template/template_import.xlsx') ?>" download>
+                        Download template import data siswa
+                    </a>
+                </p>
 
                 <?= form_open_multipart('siswa/import') ?>
                     <div class="mb-3">
