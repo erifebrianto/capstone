@@ -67,10 +67,7 @@
         <!-- Logo -->
         <div class="flex justify-center mb-8">
             <div class="flex items-center">
-                <div class="w-12 h-12 rounded-full bg-indigo-500 flex items-center justify-center mr-3">
-                    <i class="fas fa-chart-line text-white text-xl"></i>
-                </div>
-                <span class="text-2xl font-bold text-gray-800">DashPro</span>
+                <img src="<?= base_url('assets/img/kaiadmin/logo-black.png') ?>" alt="Logo" class="h-12 mr-3 object-cover">
             </div>
         </div>
         
